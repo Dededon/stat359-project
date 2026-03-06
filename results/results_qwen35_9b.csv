@@ -1,0 +1,17 @@
+experiment,description,generic_n,domain_n,sequential,precision,recall,f1,tp,fp,fn,train_loss
+zero_shot,Zero-shot,0,0,False,0.0,0.0,0.0,0,0,442,
+few_shot,Few-shot (5-shot),0,0,False,0.1743,0.19,0.1818,84,398,358,
+generic_500,Generic 0.5k,500,0,False,0.3005,0.2828,0.2914,125,291,317,1.0533
+generic_1k,Generic 1k,1000,0,False,0.3202,0.3122,0.3162,138,293,304,1.0016
+generic_2k,Generic 2k,2000,0,False,0.3239,0.3348,0.3293,148,309,294,0.9688
+generic_4k,Generic 4k,4000,0,False,0.3506,0.3529,0.3517,156,289,286,0.9445
+domain_500,Domain 0.5k,0,500,False,0.4408,0.4299,0.4353,190,241,252,1.0622
+domain_1k,Domain 1k,0,1000,False,0.3899,0.4208,0.4048,186,291,256,1.0197
+domain_2k,Domain 2k,0,2000,False,0.3843,0.4208,0.4017,186,298,256,0.9863
+domain_4k,Domain 4k,0,4000,False,0.4479,0.457,0.4524,202,249,240,0.9692
+seq_500_500,Generic→Domain 0.5k+0.5k,500,500,True,0.3995,0.3914,0.3954,173,260,269,0.9593
+seq_1k_1k,Generic→Domain 1k+1k,1000,1000,True,0.3992,0.4253,0.4118,188,283,254,0.9534
+seq_2k_2k,Generic→Domain 2k+2k,2000,2000,True,0.4423,0.4683,0.4549,207,261,235,0.942
+mix_500_500,Mixed 0.5k+0.5k,500,500,False,0.4018,0.4118,0.4067,182,271,260,1.017
+mix_1k_1k,Mixed 1k+1k,1000,1000,False,0.3873,0.4005,0.3938,177,280,265,0.9872
+mix_2k_2k,Mixed 2k+2k,2000,2000,False,0.4196,0.4548,0.4365,201,278,241,0.9625
