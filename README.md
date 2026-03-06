@@ -1,6 +1,6 @@
 # LLM Fine-Tuning for Named Entity Recognition
 
-This project evaluates how much domain-specific training data is needed for LLMs to achieve good NER (Named Entity Recognition) performance, comparing training-free prompting baselines against small-scale QLoRA fine-tuning across two models: **Qwen2.5-7B-Instruct** and **Qwen3.5-9B-Instruct**.
+This project evaluates how much domain-specific training data is needed for LLMs to achieve good NER (Named Entity Recognition) performance, comparing training-free prompting baselines against small-scale QLoRA fine-tuning across two models: **Qwen2.5-7B-Instruct** and **Qwen3.5-9B**.
 
 ## Dataset
 
