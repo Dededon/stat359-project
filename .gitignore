@@ -1,1 +1,11 @@
 .claude/settings.local.json
+*.pptx
+plots/what is ner.png
+*.js
+*.css
+*.yml
+/presentation_files
+*.html
+*.qmd
+*.tex
+*.pdf
