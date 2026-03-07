@@ -9,3 +9,5 @@ plots/what is ner.png
 *.qmd
 *.tex
 *.pdf
+/final_report
+/.claude
